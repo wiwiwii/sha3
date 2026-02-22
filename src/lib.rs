@@ -198,7 +198,7 @@ mod tests {
     fn test_file() {
         let file = "Cargo.toml"; // Change to whatever file.
         assert_eq!(
-            "4eb5088c0d702a5eac6b5f347c520a8e1365d579bd296425ea4927d180f3f8a4",
+            "ff061de9a11ac71eafec53b54a9be1365517cede81c34fb870b3bfda7939d089",
             // Change to hash computed from other implementation
             hash_file(file.into())
         );
